@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OSApAQBCBCAMAJIyGEgqQBFQIKAAUBEAIIEQQAIhAAQ=</HashCode>
+      <FileName>Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientTable" Collapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAgAAQAAEAAAACAAACAgBBEAIgAAIQAAAAAAAAAAgA=</HashCode>
+      <FileName>ClientTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compressor" Collapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgMgCABAAAAAAAAAIJAAggAAEAiAQAgBCgAAIIBQA=</HashCode>
+      <FileName>Compressor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boost::asio::io_service">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\workstation\remoterenderer\boost_1_54_0\boost\asio\io_service.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="io_service_pool" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAACAAgAAAIAAAAAAAhAAAACAQCAAAAAAA=</HashCode>
+      <FileName>io_service_pool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAgAAAAAAAACgAAAAQAAIAAAAAQABAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleLogger" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAQAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manipulator" Collapsed="true">
+    <Position X="38" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBCAAMAAgAIAIQEAIIAAgQQAAIAEQgCEAAAAEEJAA=</HashCode>
+      <FileName>Manipulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Message" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAIAAAAAAAAAAKAACARAAAAACQIAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartMessage" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAIAAAAAAAACAAQgAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StopMessage" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAQABAEAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraMessage" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABICAAAAIAAAAIAAAAAAAAAAIQAAAACAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerspectiveMessage" Collapsed="true">
+    <Position X="29" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAKAAAAAAAAgAIAAAAAAAAAIAQAAAgAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResolutionMessage" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GAAAAAAAAYAAAAAAABAAIAAAABAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouchEventMessage" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAYAAAAQAAAAAIAAAAAAAACAAQAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefFrameMessage" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAEIEAAAAAAAAAAwAAAgAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewQueryMessage" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAQABAIAAIAAAAAAAAAAAQAAAAAAQAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneRenderingMessage" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAAAAAAAAIgAAEAgAAAAAQAAAAABAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageWarpingMessage" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIACAAAAAAAAIAAAAAAAAAAAQSAQAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewUpdateMessage" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACEAAIEAAIAAAAAAAAAAIBAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefEncodingMessage" Collapsed="true">
+    <Position X="31.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAAAAAAAAAIAAAAAAAABAgQgAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogMessage" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIAAAEAAhAAAIAAAAAAAAAAAQAAIAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageQueue" Collapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAACAACAEAACAAACAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>MessageQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionCallback" Collapsed="true">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAABEAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PredictionCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreDrawCallBack" Collapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PreDrawCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoteFirstPersonManipulator" Collapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAACAAAAAACKEAQAAHAAwQAACAAACAgFEAIA=</HashCode>
+      <FileName>RemoteFirstPersonManipulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoteViewer" Collapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgBbAwCCACEEAEogEEgABAEAAJAAGgEAIAAACQABBgI=</HashCode>
+      <FileName>RemoteViewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene_Mgr" Collapsed="true">
+    <Position X="41.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SceneMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenQuad" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ScreenQuad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="server" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAEQAI=</HashCode>
+      <FileName>Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerPipeline" Collapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAwAIACgQBAAgBAAAEIgBAAAQAAYAABAAYABAACAUA=</HashCode>
+      <FileName>ServerPipeline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTask" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ServerTask.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoggerTask" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAEAAAAAAAJAAAAAAIAAAAABAAgAA=</HashCode>
+      <FileName>ServerTask.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewpointMgrTask" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgGACAAAAEAgGIAJAAAAAAICAgAAAAEARBAAAAA=</HashCode>
+      <FileName>ServerTask.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Session" Collapsed="true">
+    <Position X="44.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAQAQAgBAQAAAwgAAIAAAAAAAEAAAAAQAA=</HashCode>
+      <FileName>Session.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouchEventBuffer" Collapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAQAABAAAEAAAAAQAAIAAAEgQAAAAACAEAAAAiCAA=</HashCode>
+      <FileName>TouchEventBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFirstPersonManipulator" Collapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAQACAAAQAAGAAwAAACAAACAwIEBAA=</HashCode>
+      <FileName>CFirstPersonManipulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoteRenderer::Predictor" Collapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAABAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Predictor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boost::asio::io_service" Collapsed="true">
+    <Position X="41.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\workstation\remoterenderer\boost_1_54_0\boost\asio\io_service.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="LogRecord" Collapsed="true">
+    <Position X="38" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAEAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Camera" Collapsed="true">
+    <Position X="36.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIAAAAAAAAAAAAAAAAAQYAEACAAAAAAAhAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Perspective" Collapsed="true">
+    <Position X="39.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAIAAAAAACA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Resolution" Collapsed="true">
+    <Position X="36.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TouchEvent" Collapsed="true">
+    <Position X="38" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RefFrame" Collapsed="true">
+    <Position X="34.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAABAAQAAAAAAAAAAAAgAEAAAAAQAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RawRefFrame" Collapsed="true">
+    <Position X="41.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIBAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001b_1" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001b_2" Collapsed="true">
+    <Position X="9.75" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001b_3" Collapsed="true">
+    <Position X="4.75" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAJAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001b_4" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAJAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001b_5" Collapsed="true">
+    <Position X="34.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAJAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="tcp_Socket" Collapsed="true">
+    <Position X="34.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ui32" Collapsed="true">
+    <Position X="38" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ui16" Collapsed="true">
+    <Position X="36.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qlz_hash_compress" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qlz_hash_decompress" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qlz_state_compress" Collapsed="true">
+    <Position X="3.75" Y="11.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qlz_state_decompress" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickLZ.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="DataType" Collapsed="true">
+    <Position X="39.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAKAAAAFAAAAAQIBAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LogLevel" Collapsed="true">
+    <Position X="41.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAQAAACAAAAAAIEAAAAAABAAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MessageType" Collapsed="true">
+    <Position X="34.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABwQAAAAAAABAAAAAEAAAIAAACCAAAAAAAgACAACCEA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_001d_1" Collapsed="true">
+    <Position X="36.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAIAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAA=</HashCode>
+      <FileName>RemoteFirstPersonManipulator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0028_1" Collapsed="true">
+    <Position X="38" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Session.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0002_1" Collapsed="true">
+    <Position X="34.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAIAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAA=</HashCode>
+      <FileName>CFirstPersonManipulator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

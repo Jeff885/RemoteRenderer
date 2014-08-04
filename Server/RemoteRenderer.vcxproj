@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A974E2F5-8C9E-4930-99A7-F26EED39EB9B}</ProjectGuid>
+    <RootNamespace>RemoteRenderer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>F:\WorkStation\RemoteRenderer\boost_1_54_0;F:\WorkStation\RemoteRenderer\libjpeg-turbo\include;F:\WorkStation\RemoteRenderer\OpenSceneGraph-3.0.1-VS10.0.30319-x86-release-12741\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>F:\WorkStation\RemoteRenderer\boost_1_54_0\stage\lib;F:\WorkStation\RemoteRenderer\libjpeg-turbo\lib;F:\WorkStation\RemoteRenderer\OpenSceneGraph-3.0.1-VS10.0.30319-x86-release-12741\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>F:\WorkStation\RemoteRenderer\boost_1_54_0;F:\WorkStation\RemoteRenderer\libjpeg-turbo\include;F:\WorkStation\RemoteRenderer\OpenSceneGraph-3.0.1-VS10.0.30319-x86-release-12741\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>F:\WorkStation\RemoteRenderer\libjpeg-turbo\lib;F:\WorkStation\RemoteRenderer\boost_1_54_0\stage\lib;F:\WorkStation\RemoteRenderer\OpenSceneGraph-3.0.1-VS10.0.30319-x86-release-12741\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>osgText.lib;osgViewer.lib;osgGA.lib;osgUtil.lib;OpenThreads.lib;osg.lib;osgDB.lib;jpeg.lib;turbojpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AppEngineClient.h" />
+    <ClInclude Include="AppEngineOperatorMessage.h" />
+    <ClInclude Include="CameraOperator.h" />
+    <ClInclude Include="CFirstPersonManipulator.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientTable.h" />
+    <ClInclude Include="Compressor.h" />
+    <ClInclude Include="Configure.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="ImageEncoder.h" />
+    <ClInclude Include="ImageWarper.h" />
+    <ClInclude Include="InterfaceMessage.h" />
+    <ClInclude Include="io_service_pool.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Manipulator.h" />
+    <ClInclude Include="ManipulatorInterface.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="MessageQueue.h" />
+    <ClInclude Include="PredictionCallback.h" />
+    <ClInclude Include="Predictor.h" />
+    <ClInclude Include="PreDrawCallback.h" />
+    <ClInclude Include="QuickLZ.h" />
+    <ClInclude Include="RemoteFirstPersonManipulator.h" />
+    <ClInclude Include="RemoteViewer.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="ScreenQuad.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="ServerPipeline.h" />
+    <ClInclude Include="ServerTask.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TouchEventBuffer.h" />
+    <ClInclude Include="ViewbufferMgr.h" />
+    <ClInclude Include="ViewpointMgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppEngineClient.cpp" />
+    <ClCompile Include="AppEngineOperatorMessage.cpp" />
+    <ClCompile Include="CameraOperator.cpp" />
+    <ClCompile Include="CFirstPersonManipulator.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientTable.cpp" />
+    <ClCompile Include="Compressor.cpp" />
+    <ClCompile Include="InterfaceMessgae.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Manipulator.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="PredictionCallback.cpp" />
+    <ClCompile Include="PreDrawCallBack.cpp" />
+    <ClCompile Include="QuickLZ.cpp" />
+    <ClCompile Include="RemoteFirstPersonManipulator.cpp" />
+    <ClCompile Include="RemoteViewer.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="ServerPipeline.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="TouchEventBuffer.cpp" />
+    <ClCompile Include="ViewpointMgrTask.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
