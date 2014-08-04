@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Vino.iml" filepath="$PROJECT_DIR$/Vino.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jni/libjpeg/libjpeg.iml" filepath="$PROJECT_DIR$/jni/libjpeg/libjpeg.iml" />
+    </modules>
+  </component>
+</project>
+
